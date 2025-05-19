@@ -1,0 +1,218 @@
+# llm.txt
+
+## metadata
+
+title: Aleo Developer Documentation
+description: Documentation for Aleo blockchain development including Leo programming language
+version: 1.0
+date: 2025-05-19
+author: Generated from Aleo documentation
+license: Unknown
+
+## toc
+
+- [Chapter 0: Getting Started](#chapter-0-getting-started)
+- [Chapter 1: Concepts](#chapter-1-concepts)
+- [Chapter 2: Hello Leo!](#chapter-2-hello-leo)
+- [Chapter 3: Language](#chapter-3-language)
+- [Chapter 4: Programming Model](#chapter-4-programming-model)
+- [Chapter 5: CLI](#chapter-5-cli)
+- [Chapter 6: Toy Examples](#chapter-6-toy-examples)
+- [Chapter 7: Additional Material](#chapter-7-additional-material)
+- [Chapter 8: Getting Started](#chapter-8-getting-started)
+- [Chapter 9: Concepts](#chapter-9-concepts)
+- [Chapter 10: Network Messages](#chapter-10-network-messages)
+- [Chapter 11: Public RPC Endpoints](#chapter-11-public-rpc-endpoints)
+- [Chapter 12: Private RPC Endpoints](#chapter-12-private-rpc-endpoints)
+- [Chapter 13: Authentication](#chapter-13-authentication)
+- [Chapter 14: Blocks](#chapter-14-blocks)
+- [Chapter 15: Transactions](#chapter-15-transactions)
+- [Chapter 16: Metrics](#chapter-16-metrics)
+- [Chapter 17: The Aleo Curves](#chapter-17-the-aleo-curves)
+- [Chapter 18: Proof of Succinct Work](#chapter-18-proof-of-succinct-work)
+
+## content
+
+# Aleo Developer
+
+## Welcome to Aleo.
+
+### Chapter 0: Getting Started
+
+- [Welcome to Aleo.](https://github.com/Authentiquo/leo_mcp/blob/main/aleo/getting_started/00_overview.md)
+
+### Chapter 1: Concepts
+
+- [Accounts](https://github.com/Authentiquo/leo_mcp/blob/main/aleo/concepts/00_accounts.md)
+- [Programs](https://github.com/Authentiquo/leo_mcp/blob/main/aleo/concepts/01_programs.md)
+- [Records](https://github.com/Authentiquo/leo_mcp/blob/main/aleo/concepts/02_records.md)
+- [Transactions](https://github.com/Authentiquo/leo_mcp/blob/main/aleo/concepts/03_transactions.md)
+- [Blocks](https://github.com/Authentiquo/leo_mcp/blob/main/aleo/concepts/04_blocks.md)
+- [Consensus](https://github.com/Authentiquo/leo_mcp/blob/main/aleo/concepts/05_consensus.md)
+- [Glossary](https://github.com/Authentiquo/leo_mcp/blob/main/aleo/concepts/06_glossary.md)
+
+## Developer Preview I
+
+### Chapter 2: Hello Leo!
+
+- [The Leo Programming Language](https://github.com/Authentiquo/leo_mcp/blob/main/developer/getting_started/00_overview.md)
+- [Installation](https://github.com/Authentiquo/leo_mcp/blob/main/developer/getting_started/01_installation.md)
+- [Hello World in Leo](https://github.com/Authentiquo/leo_mcp/blob/main/developer/getting_started/02_hello_world.md)
+- [File Syntax](https://github.com/Authentiquo/leo_mcp/blob/main/developer/getting_started/03_syntax.md)
+- [CLI Commands](https://github.com/Authentiquo/leo_mcp/blob/main/developer/getting_started/04_cli.md)
+
+### Chapter 3: Language
+
+- [A Flying Tour of Leo](https://github.com/Authentiquo/leo_mcp/blob/main/developer/language/00_flying_tour.md)
+- [Layout of a Leo Program](https://github.com/Authentiquo/leo_mcp/blob/main/developer/language/01_layout.md)
+- [Defining Variables](https://github.com/Authentiquo/leo_mcp/blob/main/developer/language/02_variables.md)
+- [Data Types and Values](https://github.com/Authentiquo/leo_mcp/blob/main/developer/language/03_types.md)
+- [Arrays](https://github.com/Authentiquo/leo_mcp/blob/main/developer/language/04_arrays_and_tuples.md)
+- [Operators](https://github.com/Authentiquo/leo_mcp/blob/main/developer/language/05_operators.md)
+- [Statements](https://github.com/Authentiquo/leo_mcp/blob/main/developer/language/06_statements.md)
+- [Functions](https://github.com/Authentiquo/leo_mcp/blob/main/developer/language/07_functions.md)
+- [Leo Inputs](https://github.com/Authentiquo/leo_mcp/blob/main/developer/language/08_inputs.md)
+- [Circuits](https://github.com/Authentiquo/leo_mcp/blob/main/developer/language/09_circuits.md)
+- [Imports](https://github.com/Authentiquo/leo_mcp/blob/main/developer/language/10_imports.md)
+- [Console Functions](https://github.com/Authentiquo/leo_mcp/blob/main/developer/language/11_console.md)
+- [Writing Tests](https://github.com/Authentiquo/leo_mcp/blob/main/developer/language/12_tests.md)
+- [Lexical Structure](https://github.com/Authentiquo/leo_mcp/blob/main/developer/language/13_lexical.md)
+
+### Chapter 4: Programming Model
+
+- [The Leo Programming Model](https://github.com/Authentiquo/leo_mcp/blob/main/developer/programming_model/00_model.md)
+
+### Chapter 5: CLI
+
+- [The Leo Command Line Interface](https://github.com/Authentiquo/leo_mcp/blob/main/developer/cli/00_overview.md)
+- [Create a Package](https://github.com/Authentiquo/leo_mcp/blob/main/developer/cli/01_new.md)
+- [Initialize a Package](https://github.com/Authentiquo/leo_mcp/blob/main/developer/cli/02_init.md)
+- [Build a Package](https://github.com/Authentiquo/leo_mcp/blob/main/developer/cli/03_build.md)
+- [Auto-Compile a Program](https://github.com/Authentiquo/leo_mcp/blob/main/developer/cli/04_watch.md)
+- [Test a Program](https://github.com/Authentiquo/leo_mcp/blob/main/developer/cli/05_test.md)
+- [Setup a Program](https://github.com/Authentiquo/leo_mcp/blob/main/developer/cli/06_setup.md)
+- [Execute a Program](https://github.com/Authentiquo/leo_mcp/blob/main/developer/cli/07_prove.md)
+- [Verify a Program](https://github.com/Authentiquo/leo_mcp/blob/main/developer/cli/08_run.md)
+- [Login to Aleo Package Manager](https://github.com/Authentiquo/leo_mcp/blob/main/developer/cli/09_login.md)
+- [Logout of Aleo Package Manager](https://github.com/Authentiquo/leo_mcp/blob/main/developer/cli/10_logout.md)
+- [Import a Package](https://github.com/Authentiquo/leo_mcp/blob/main/developer/cli/11_add.md)
+- [Remove a Package](https://github.com/Authentiquo/leo_mcp/blob/main/developer/cli/12_remove.md)
+- [Publish a Package to Aleo Package Manager](https://github.com/Authentiquo/leo_mcp/blob/main/developer/cli/13_publish.md)
+- [Deploy a Package to Aleo](https://github.com/Authentiquo/leo_mcp/blob/main/developer/cli/14_deploy.md)
+- [Clean a Package Workspace](https://github.com/Authentiquo/leo_mcp/blob/main/developer/cli/15_clean.md)
+- [Lint a Package Workspace](https://github.com/Authentiquo/leo_mcp/blob/main/developer/cli/16_lint.md)
+- [Update the Leo Compiler](https://github.com/Authentiquo/leo_mcp/blob/main/developer/cli/17_update.md)
+
+### Chapter 6: Toy Examples
+
+- [Pedersen Hash](https://github.com/Authentiquo/leo_mcp/blob/main/developer/toy_examples/00_pedersen_hash.md)
+- [Bubble Sort](https://github.com/Authentiquo/leo_mcp/blob/main/developer/toy_examples/01_bubble_sort.md)
+- [Linear Regression](https://github.com/Authentiquo/leo_mcp/blob/main/developer/toy_examples/02_linear_regression.md)
+
+### Chapter 7: Additional Material
+
+- [Style Guide](https://github.com/Authentiquo/leo_mcp/blob/main/developer/additional_material/00_style.md)
+- [Common Patterns](https://github.com/Authentiquo/leo_mcp/blob/main/developer/additional_material/01_common.md)
+- [List of Known Bugs](https://github.com/Authentiquo/leo_mcp/blob/main/developer/additional_material/02_bugs.md)
+- [Contributing](https://github.com/Authentiquo/leo_mcp/blob/main/developer/additional_material/03_contributing.md)
+
+## Testnet I
+
+### Chapter 8: Getting Started
+
+- [Testnet I.](https://github.com/Authentiquo/leo_mcp/blob/main/testnet/getting_started/00_overview.md)
+- [Install snarkOS](https://github.com/Authentiquo/leo_mcp/blob/main/testnet/getting_started/01_installation.md)
+
+### Chapter 9: Concepts
+
+- [RPC Server](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/concepts/00_rpc_server.md)
+
+### Chapter 10: Network Messages
+
+- [Block](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/network_messages/00_block.md)
+- [GetBlocks](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/network_messages/01_get_blocks.md)
+- [GetMemoryPool](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/network_messages/02_get_memory_pool.md)
+- [GetPeers](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/network_messages/03_get_peers.md)
+- [GetSync](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/network_messages/04_get_sync.md)
+- [MemoryPool](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/network_messages/05_memory_pool.md)
+- [Peers](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/network_messages/06_peers.md)
+- [Ping](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/network_messages/07_ping.md)
+- [Pong](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/network_messages/08_pong.md)
+- [Sync](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/network_messages/09_sync.md)
+- [SyncBlock](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/network_messages/10_sync_block.md)
+- [Transaction](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/network_messages/11_transaction.md)
+- [Version](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/network_messages/12_version.md)
+
+### Chapter 11: Public RPC Endpoints
+
+- [decoderawtransaction](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/public_endpoints/00_decoderawtransaction.md)
+- [getbestblockhash](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/public_endpoints/01_getbestblockhash.md)
+- [getblock](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/public_endpoints/02_getblock.md)
+- [getblockcount](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/public_endpoints/03_getblockcount.md)
+- [getblockhash](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/public_endpoints/04_getblockhash.md)
+- [getblocktemplate](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/public_endpoints/05_getblocktemplate.md)
+- [getconnectioncount](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/public_endpoints/06_getconnectioncount.md)
+- [getnodeinfo](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/public_endpoints/07_getnodeinfo.md)
+- [getpeerinfo](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/public_endpoints/08_getpeerinfo.md)
+- [getrawtransaction](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/public_endpoints/09_getrawtransaction.md)
+- [gettransactioninfo](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/public_endpoints/10_gettransactioninfo.md)
+- [sendtransaction](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/public_endpoints/11_sendtransaction.md)
+- [validaterawtransaction](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/public_endpoints/12_validaterawtransaction.md)
+
+### Chapter 12: Private RPC Endpoints
+
+- [createaccount](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/private_endpoints/00_createaccount.md)
+- [createrawtransaction](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/private_endpoints/01_createrawtransaction.md)
+- [createtransaction](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/private_endpoints/02_createtransaction.md)
+- [createtransactionkernel](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/private_endpoints/03_createtransactionkernel.md)
+- [decoderecord](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/private_endpoints/04_decoderecord.md)
+- [decryptrecord](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/private_endpoints/05_decryptrecord.md)
+- [getrawrecord](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/private_endpoints/06_getrawrecord.md)
+- [getrecordcommitmentcount](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/private_endpoints/07_getrecordcommitmentcount.md)
+- [getrecordcommitments](https://github.com/Authentiquo/leo_mcp/blob/main/autogen/testnet/private_endpoints/08_getrecordcommitments.md)
+
+## Explorer I
+
+### Chapter 13: Authentication
+
+- [Authentication API](https://github.com/Authentiquo/leo_mcp/blob/main/explorer/authentication/00_authentication_api.md)
+- [createapikey](https://github.com/Authentiquo/leo_mcp/blob/main/explorer/authentication/01_createapikey.md)
+
+### Chapter 14: Blocks
+
+- [Block API](https://github.com/Authentiquo/leo_mcp/blob/main/explorer/blocks/00_block_api.md)
+- [getbestblock](https://github.com/Authentiquo/leo_mcp/blob/main/explorer/blocks/01_getbestblock.md)
+- [getbyheight](https://github.com/Authentiquo/leo_mcp/blob/main/explorer/blocks/02_getbyheight.md)
+- [getbyheightrange](https://github.com/Authentiquo/leo_mcp/blob/main/explorer/blocks/03_getbyheightrange.md)
+- [getbyhash](https://github.com/Authentiquo/leo_mcp/blob/main/explorer/blocks/04_getbyhash.md)
+
+### Chapter 15: Transactions
+
+- [Transaction API](./explorer/transactions/00_transaction_api.md)
+- [getbyhash](./explorer/transactions/01_getbyhash.md)
+- [getbyhashbatch](./explorer/transactions/02_getbyhashbatch.md)
+- [broadcast](./explorer/transactions/03_broadcast.md)
+- [validate](./explorer/transactions/04_validate.md)
+
+### Chapter 16: Metrics
+
+- [Metrics API](./explorer/metrics/00_metrics_api.md)
+- [get](./explorer/metrics/01_get.md)
+- [graph](./explorer/metrics/02_graph.md)
+
+## Advanced Topics
+
+### Chapter 17: The Aleo Curves
+
+- [Overview](./autogen/advanced/the_aleo_curves/00_overview.md)
+- [Edwards BLS12](./autogen/advanced/the_aleo_curves/01_edwards_bls12.md)
+- [BLS12-377](./autogen/advanced/the_aleo_curves/02_bls12-377.md)
+- [Edwards BW6](./autogen/advanced/the_aleo_curves/03_edwards_bw6.md)
+- [BW6-761](./autogen/advanced/the_aleo_curves/04_bw6-761.md)
+
+### Chapter 18: Proof of Succinct Work
+
+- [Overview](./advanced/posw/00_overview.md)
+- [Consensus Security](./advanced/posw/01_consensus_security.md)
+- [The PoSW Predicate](./advanced/posw/02_posw_predicate.md)
+- [The Mining Process](./advanced/posw/03_mining.md)
