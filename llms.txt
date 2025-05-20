@@ -216,3 +216,60 @@ license: Unknown
 - [Consensus Security](./advanced/posw/01_consensus_security.md)
 - [The PoSW Predicate](./advanced/posw/02_posw_predicate.md)
 - [The Mining Process](./advanced/posw/03_mining.md)
+
+
+## Aleo Course Modules
+
+### Module 1: The Aleo Blockchain
+
+- [Fundamentals](modules/module_1/01_fundamentals.md) : Introduces the basic concepts and architecture of the Aleo blockchain, including ZK proofs and network roles.
+- [Accounts](modules/module_1/02_accounts.md) : Explains Aleo account structure, key types, and how to generate and use accounts.
+- [Key Concepts](modules/module_1/03_concepts.md) : Covers programs, transactions, transitions, and blocks in the Aleo ecosystem.
+- [Consensus](modules/module_1/04_consensus.md) : Details the AleoBFT consensus protocol, its structure, and its advantages for privacy and scalability.
+
+### Module 2: Leo Programming Basics
+
+- [Hello World](modules/module_2/01_hello_world.md) : Step-by-step guide to creating and running your first Leo program on Aleo, with explanations of project structure and commands.
+- [Public vs Private](modules/module_2/02_public_vs_private.md) : Explains the difference between public and private inputs/outputs in Leo transitions and their impact on privacy.
+
+### Module 3: Leo Programming Fundamentals
+
+- [Variables and Types](modules/module_3/03_variables_and_types.md) : Discusses variable declaration, types, and data structures in Leo.
+- [Records](modules/module_3/04_records.md) : Explains the use of records for private state in Leo programs.
+- [Control Flow](modules/module_3/05_control_flow.md) : Describes control flow structures such as if, else, and loops in Leo.
+- [Mappings](modules/module_3/06_mappings.md) : Introduces mappings for public state management in Leo.
+- [Operators](modules/module_3/07_operators.md) : Lists and explains operators and expressions in Leo.
+
+### Module 5: Advanced Leo Concepts
+
+- [Composability - Introduction](modules/module_5/5.1_Composability.md) : Introduces composability and program imports in Leo.
+- [Composability - Signer vs Caller](modules/module_5/5.1_Composability_part2.md) : Explains the difference between the signer and the caller in Leo transitions.
+- [Composability - External Records and Imported Structs](modules/module_5/5.1_Composability_part3.md) : Shows how to use external records and imported structs across Leo programs.
+- [Composability - Async and External Mappings](modules/module_5/5.1_Composability_part4.md) : Covers asynchronous transitions and reading external mappings.
+- [Strings - Naive Approaches](modules/module_5/5.2_Strings.md) : Discusses basic approaches to handling strings in Leo.
+- [Strings - Efficient Approach with Fields](modules/module_5/5.2_Strings_part2.md) : Explains how to efficiently represent strings using fields in Leo.
+- [Fungible Token Standard - ARC20](modules/module_5/5.3_Fungible_Token_Standard_ARC20.md) : Explains the ARC20 token standard and its implementation in Leo.
+- [Fungible Token Standard - ARC20 Approval](modules/module_5/5.3_Fungible_Token_Standard_ARC20_part2.md) : Details the approval mechanism for ARC20 tokens.
+- [Token Registry - ARC21](modules/module_5/5.4_Token_Registry_ARC21.md) : Describes the ARC21 token registry and its use for token management.
+- [Token Registry - ARC21 Data Structures](modules/module_5/5.4_Token_Registry_ARC21_part2.md) : Lists and explains the data structures used in the ARC21 registry.
+- [Token Registry - ARC21 Mappings and Functions](modules/module_5/5.4_Token_Registry_ARC21_part3.md) : Explains mappings, constants, and initial functions in ARC21.
+- [Token Registry - ARC21 Additional Functions](modules/module_5/5.4_Token_Registry_ARC21_part4.md) : Describes additional functions for ARC21 token management.
+- [Token Registry - ARC21 Token Transfer](modules/module_5/5.4_Token_Registry_ARC21_part5.md) : Details token transfer and management functions in ARC21.
+- [Non-Fungible Token Standard - ARC721](modules/module_5/5.5_Non-Fungible_Token_Standard_ARC721.md) : Details the ARC721 NFT standard and its implementation.
+- [Non-Fungible Token Standard - ARC721 Private Data](modules/module_5/5.5_Non-Fungible_Token_Standard_ARC721_part2.md) : Explains private data and ownership in ARC721 NFTs.
+- [Non-Fungible Token Standard - ARC721 Public Data](modules/module_5/5.5_Non-Fungible_Token_Standard_ARC721_part3.md) : Covers public data and re-obfuscation in ARC721 NFTs.
+- [Non-Fungible Token Standard - ARC721 Approvals](modules/module_5/5.5_Non-Fungible_Token_Standard_ARC721_part4.md) : Describes approval and parameter management for ARC721 NFTs.
+- [Exercise: Create an Actual Token](modules/module_5/Assignment_2_Create_an_actual_Token.md) : Practical exercise to create a token using the ARC21 standard.
+
+### Module 6: Aleo dApp Development and SDKs
+
+- [RPC API](modules/module_6/6.1_RPC_API.md) : Lists and explains the available RPC endpoints for interacting with Aleo nodes.
+- [Create an Empty Aleo dApp](modules/module_6/6.2_Create_an_empty_Aleo_dApp.md) : Step-by-step guide to creating a new Aleo dApp using the Leo framework.
+- [Wasm SDK](modules/module_6/6.3_Wasm_SDK.md) : Describes the JavaScript SDK for Aleo, including account creation, program execution, and network communication.
+- [Wallet Adapter](modules/module_6/6.4_Wallet_Adapter.md) : Explains how to integrate and use the universal wallet adapter in Aleo dApps.
+
+### Module 7: Aleo dApp Advanced Topics
+
+- [Create an Empty Aleo dApp](modules/module_7/7.1_Create_an_empty_Aleo_dApp.md) : Advanced guide to setting up a new Aleo dApp, including deployment and GitHub integration.
+- [Wasm SDK](modules/module_7/7.2_Wasm_SDK.md) : Advanced usage of the Wasm SDK for Aleo, including program deployment and execution.
+- [Wallet Adapter](modules/module_7/7.3_Wallet_Adapter.md) : Advanced wallet integration techniques for Aleo dApps.
